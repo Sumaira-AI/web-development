@@ -20,6 +20,15 @@ height : 30px;
 width : 110px;
 cursor:pointer;
 }
+.add-to-cart:hover {
+    background-color:rgb(245, 205, 3);
+    
+
+}
+.add-to-cart:active{
+    color:rgb(255, 216, 20);
+    
+}
 .buy-now {
     background-color: rgb(225, 164, 28);
     border:none;
@@ -28,6 +37,7 @@ cursor:pointer;
     width : 110px;
     cursor:pointer;
 }
+
 .request {
     background-color: black;
     color:aliceblue;
@@ -37,18 +47,25 @@ cursor:pointer;
     height:35px;
     width : 115px;
     cursor:pointer;
+    transition:opacity 0.15s;
+}
+.request:hover{
+    opacity:0.8;
 }
 .sign {
     background-color: rgb(46, 164, 82);
     border:none;
     border-radius:5px;
     color:aliceblue;
-    font-size: bold;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: bold;
     height:30px;
     width : 80px;
     cursor:pointer;
-
+    transition: box-shadow 0.15s;
+}
+.sign:hover{
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
 }
 .start {
     background-color: rgb(121, 82, 179);
@@ -60,8 +77,11 @@ cursor:pointer;
     height:30px;
     width : 100px;
     cursor:pointer;
-
+    transition:background-color 0.15s,
 }
+  .start:hover {
+      background-color: rgb(99, 60, 156);
+  }
 .download {
     background-color:whitesmoke;
     border-color: black;
@@ -72,5 +92,10 @@ cursor:pointer;
     border-width:none;
     border-radius:4px;
     cursor:pointer;
-
+    transition:background-color 0.15s,
+    color 0.15s;
 }
+ .download:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
