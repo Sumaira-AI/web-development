@@ -1,0 +1,76 @@
+a {
+    color:rgb(37, 133, 120);
+}
+
+h3 {
+    color:black;
+    font-weight:bolder;
+    font-size:x-large;
+}
+.color-text {
+   color:rgb(0, 118, 0);
+   font-size:medium;
+   font-weight:700;
+}
+.add-to-cart {
+background-color:rgb(255, 216, 20);
+border: none;
+border-radius:15px;
+height : 30px;
+width : 110px;
+cursor:pointer;
+}
+.buy-now {
+    background-color: rgb(225, 164, 28);
+    border:none;
+    border-radius : 15px;
+    height : 30px;
+    width : 110px;
+    cursor:pointer;
+}
+.request {
+    background-color: black;
+    color:aliceblue;
+    border:none;
+    font-size: small;
+    font-weight: 610;
+    height:35px;
+    width : 115px;
+    cursor:pointer;
+}
+.sign {
+    background-color: rgb(46, 164, 82);
+    border:none;
+    border-radius:5px;
+    color:aliceblue;
+    font-size: bold;
+    font-weight: 600;
+    height:30px;
+    width : 80px;
+    cursor:pointer;
+
+}
+.start {
+    background-color: rgb(121, 82, 179);
+    border:none;
+    border-radius:4px;
+    color:aliceblue;
+    font-size: bold;
+    font-weight: 600;
+    height:30px;
+    width : 100px;
+    cursor:pointer;
+
+}
+.download {
+    background-color:whitesmoke;
+    border-color: black;
+    font-weight: 500;
+    font-size:bold;
+    height:30px;
+    width : 100px;
+    border-width:none;
+    border-radius:4px;
+    cursor:pointer;
+
+}
