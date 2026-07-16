@@ -16,9 +16,12 @@ h3 {
 background-color:rgb(255, 216, 20);
 border: none;
 border-radius:15px;
-height : 30px;
-width : 110px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
 cursor:pointer;
+margin-right: 10px;
 }
 .add-to-cart:hover {
     background-color:rgb(245, 205, 3);
@@ -33,8 +36,10 @@ cursor:pointer;
     background-color: rgb(225, 164, 28);
     border:none;
     border-radius : 15px;
-    height : 30px;
-    width : 110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     cursor:pointer;
 }
 
@@ -44,8 +49,10 @@ cursor:pointer;
     border:none;
     font-size: small;
     font-weight: 610;
-    height:35px;
-    width : 115px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     cursor:pointer;
     transition:opacity 0.15s;
 }
@@ -59,8 +66,10 @@ cursor:pointer;
     color:aliceblue;
     font-size: 15px;
     font-weight: bold;
-    height:30px;
-    width : 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     cursor:pointer;
     transition: box-shadow 0.15s;
 }
@@ -74,9 +83,12 @@ cursor:pointer;
     color:aliceblue;
     font-size: bold;
     font-weight: 600;
-    height:30px;
-    width : 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     cursor:pointer;
+    margin-right: 10px;
     transition:background-color 0.15s,
 }
   .start:hover {
@@ -87,15 +99,90 @@ cursor:pointer;
     border-color: black;
     font-weight: 500;
     font-size:bold;
-    height:30px;
-    width : 100px;
     border-width:none;
     border-radius:4px;
     cursor:pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom:17px;
     transition:background-color 0.15s,
     color 0.15s;
 }
  .download:hover {
     background-color: rgb(108, 117, 125);
     color: white;
+  }
+
+
+
+  /* lesson 4 : Q1# pagination */
+.search-result{
+    padding-left:7px;
+    padding-right: 7px;
+}
+.back{
+    margin-top: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+.next{
+    margin-top:17px;
+    margin-bottom: 17px;
+     padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+  /* lesson 4 : Q2# stretch */
+.stretch-button{
+    color:white;
+    background-color: green;
+    border:none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom:20px;
+    transition:  padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s,
+    padding-right 1s
+    ;
+
+}
+.stretch-button:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 25px;
+}
+  
+
+ /* lesson 4 : Q3# 3D click */
+ 
+ .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
   }
