@@ -37,3 +37,15 @@ button{
     font-weight: 200px;
     font-size: small;
 }
+
+.flower{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border:none;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+}
