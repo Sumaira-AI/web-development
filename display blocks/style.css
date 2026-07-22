@@ -1,4 +1,19 @@
+
 .name{
     display:block;
     margin-bottom: 12px;
+}
+.para{
+    display: inline-block;
+}
+.yes{
+    display: inline-block;
+    margin-bottom:12px;
+}
+.no{
+    display:inline-block;
+    margin-bottom: 12px;
+}
+.email{
+    display: block;
 }
