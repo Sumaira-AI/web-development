@@ -1,15 +1,26 @@
-.search{
-    border-radius:9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-width:1px;
-    margin-top:5px;
-    height:20px;
-    width:300px;
-    padding-left:13px;
+body{
+    display:inline-block
+}
+.email{
+    display:block;
+    margin-top: 4px;
+    width: 335px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     
 }
+.name1{
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+.name2{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
 button{
+    
     border:none;
     padding-left: 100px;
     padding-right:100px;
@@ -37,6 +48,8 @@ button{
     font-weight: 200px;
     font-size: small;
 }
+
+
 
 .flower{
     height:50px;
