@@ -1,0 +1,74 @@
+body{
+    background-color: #F5EFEB;
+}
+div{
+    display:inline-block;
+    background-color: #897360;
+    margin-left: 15px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    width:208px;
+    color: #3D0C02;
+}
+.div2{
+    display:inline-block;
+    background-color: #897360;
+    margin-left:15px;
+    margin-right: 20px;
+    width:208px;
+}
+.div3{
+    display:inline-block;
+    background-color: #897360;
+    margin-left: 15px;
+    margin-right: 20px;
+    width:208px;
+}
+.img1{
+    height: 200px;
+    width: 100%;
+    padding-right:12px;
+    object-fit: cover;
+}
+.img2{
+    height: 200px;
+    width: 100%;
+    padding-right:12px;
+    object-fit: cover;
+}
+.img3{
+    height: 200px;
+    width: 100%;
+    padding-right:12px;
+    object-fit: cover;
+}
+.buy{
+    border-radius: 3px;
+    border-color:#241d1b;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3D0C02;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #9F8170;
+    margin-left: 10px;
+    cursor:pointer;
+    margin-bottom: 5px;
+    transition:0.25s;
+}
+.buy:hover{
+    background-color: #3D0C02;
+    color:#9F8170;
+}
+.discription{
+    margin-left:10px;
+    margin-right: 10px;
+}
+h3{
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+}
